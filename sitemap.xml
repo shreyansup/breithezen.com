@@ -1,81 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
-  <!-- Homepage (Highest Priority) -->
+  <!-- 1. Homepage (index.html) -->
   <url>
-    <loc>https://breathizen.com/</loc>
+    <loc>https://breithezen.com/</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- Core Product Pages -->
+  <!-- 2. Privacy Policy -->
   <url>
-    <loc>https://breathizen.com/what-is-breathizen</loc>
+    <loc>https://breithezen.com/privacy-policy.html</loc>
     <lastmod>2026-09-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://breathizen.com/how-breathizen-works</loc>
-    <lastmod>2026-09-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://breathizen.com/breathizen-ingredients</loc>
-    <lastmod>2026-09-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://breathizen.com/breathizen-benefits</loc>
-    <lastmod>2026-09-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://breathizen.com/breathizen-reviews</loc>
-    <lastmod>2026-09-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
 
-  <!-- Blog / Resources -->
+  <!-- 3. Terms & Conditions -->
   <url>
-    <loc>https://breathizen.com/blog/</loc>
+    <loc>https://breithezen.com/terms-conditions.html</loc>
     <lastmod>2026-09-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
 
-  <!-- Legal & Support Pages (Lower Priority, but essential for trust/E-E-A-T) -->
+  <!-- 4. Disclaimer -->
   <url>
-    <loc>https://breathizen.com/privacy-policy</loc>
-    <lastmod>2026-09-24</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://breathizen.com/terms</loc>
-    <lastmod>2026-09-24</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://breathizen.com/disclaimer</loc>
-    <lastmod>2026-09-24</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://breathizen.com/refund-policy</loc>
-    <lastmod>2026-09-24</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://breathizen.com/shipping-policy</loc>
+    <loc>https://breithezen.com/disclaimer.html</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>

@@ -1,0 +1,45 @@
+# =====================================================
+# BreathiZen - Robots.txt
+# Policy: FULLY OPEN. All search engines and AI assistants 
+# are permitted to crawl and index the entire site.
+# =====================================================
+
+# 1) Default rule: Allow every bot to crawl everything
+User-agent: *
+Allow: /
+
+# 2) Explicitly allow major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# 3) Explicitly allow AI / LLM crawlers (Critical for AEO/GEO)
+User-agent: GPTBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+# 4) Block common backend/private directories (Good practice, even on static sites)
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /cgi-bin/
+Disallow: /.git/
+Disallow: /.env
+
+# 5) Sitemap location (MUST use absolute URL matching your live domain)
+Sitemap: https://breathizen.com/sitemap.xml
